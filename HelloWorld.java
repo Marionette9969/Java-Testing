@@ -50,7 +50,28 @@ public class HelloWorld {
         int i = 10;
         for (i = 0 ; i < 10; i++)
         {
-            out.print(i);
+            out.println(i);
         }
+
+
+        out.println("");
+        out.println("");
+        out.println("===========================================================");
+        out.println("ARRAY TESTING");
+        out.println("Usefull for inventory display, sound effect order, animation frames");
+        out.println("===========================================================");
+
+
+        // Syntax Formula
+        // dataType[] arrayname
+        // example > int[] angka
+
+        String[] cars = {"Toyota", "Honda"};
+        int[] scores = {999,778,553,500};
+        out.println(scores[2]);
+        out.println(cars[1]);
+
+        
+
     }
 }
